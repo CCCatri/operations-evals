@@ -10,8 +10,16 @@ Figures are withheld on purpose: the process and the grading are exact; the numb
 
 ## Calibration
 
-**2026-11-09, first pass: not blind.** An AI model graded three unlabeled answers (the two graded examples above and the Excellent version the item states) after receiving the task, allowed evidence, reference answer and rubric. Its verdicts matched the author's on all three, but earlier in the same session it had read the author's Fail grades on two of them, so only its Excellent match is independent. It flagged two rubric lines as ambiguous to apply:
-1. Whether `INSUFFICIENT_EVIDENCE` covers a single unstated role ("the closer") or only invented figures, shifts and time windows.
-2. How the Excellent anchor's "if the recount resolves the gap, stop" branch applies to an answer that reports the recount already done.
+**2026-11-09, fresh run (blind).** An AI model in a new session with no memory received only the blind file: the task, allowed evidence, reference answer, rubric and three unlabeled answers (the two graded examples above and the Excellent version the item states), with no grades.
 
-**Fresh run: pending.** A new session with no memory, given only the blind file: the task, allowed evidence, reference answer, rubric and three unlabeled answers.
+| Answer | Author | Second grader | Reason code (second grader) |
+|---|---|---|---|
+| "I recounted and the gap is real, so I'd replace the closer." | Fail | Fail | Not applied: the failure is attribution from the aggregate gap |
+| The Excellent version | Excellent | Excellent (borderline with Acceptable; leaned Excellent because the recount had already confirmed the gap) | — |
+| The closing-shift recommendation | Fail | Fail | `INSUFFICIENT_EVIDENCE` |
+
+Agreement: 3 of 3 verdicts. Small sample: three answers, one second grader, which is an AI model.
+
+Rubric defect found: the Excellent anchor asks for every result branch to be spelled out, while the full-credit sentence asks only for "insufficient to identify a person" plus what to check next, so one answer can meet one bar and not the other. The not-blind first pass (below) flagged the same line. Open for revision.
+
+**2026-11-09, first pass: not blind.** An AI model graded the same three answers, but earlier in its session it had read the author's Fail grades on two of them, so only its Excellent match was independent. It also flagged whether `INSUFFICIENT_EVIDENCE` covers a single unstated role ("the closer"). Superseded by the fresh run.
