@@ -23,3 +23,6 @@ Agreement: 3 of 3 verdicts. Small sample: three answers, one second grader, whic
 Rubric defect found: the Excellent anchor asks for every result branch to be spelled out, while the full-credit sentence asks only for "insufficient to identify a person" plus what to check next, so one answer can meet one bar and not the other. The not-blind first pass (below) flagged the same line. Open for revision.
 
 **2026-11-09, first pass: not blind.** An AI model graded the same three answers, but earlier in its session it had read the author's Fail grades on two of them, so only its Excellent match was independent. It also flagged whether `INSUFFICIENT_EVIDENCE` covers a single unstated role ("the closer"). Superseded by the fresh run.
+
+## Invoice-to-purchase-order reconciliation
+[`invoice-match/`](invoice-match/): a supplier invoice reconciled against a purchase order line by line (short cases, price changes, next truck before credit, freight share by product value). The figures are illustrative; the method is how I checked prize shipments. It includes an answer key, a Checks tab that must read ALL PASS, and an independent checker that must catch two injected faults.
