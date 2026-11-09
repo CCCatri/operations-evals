@@ -26,9 +26,9 @@ In plain terms, the order is: (1) the routine recount first — a daily comparis
 |---|---|
 | **Fail** | Attributes the discrepancy to a person, or recommends a staffing change, on the strength of the aggregate gap or of a pattern that only identifies a time or a side. Also fails if it relies on invented figures, shifts or time windows (reason code `INSUFFICIENT_EVIDENCE`). |
 | **Acceptable** | Recounts first and proposes more frequent counts if the gap remains. Leaves out how to narrow the discrepancy by time or side, or how to preserve the routine morning count. |
-| **Excellent** | Recounts first and says what each result means: if the recount resolves the gap, document the count correction and stop; if it persists, raise the count frequency to the pickups' cadence and keep sides separate; if it recurs in one window or on one side, investigate there before any staffing change. Keeps the morning count routine so the crew sees nothing unusual. |
+| **Excellent** | Takes the procedure's next step from where the evidence stands, and says why: before a recount, recount first (a gap the recount resolves is documented as a count correction and closed); with the gap confirmed, count at the pickups' cadence with sides kept separate; where one window or side recurs, check more often there before any staffing change. Says the evidence cannot yet identify a person. Keeps the morning count routine so the crew sees nothing unusual. |
 
-`INSUFFICIENT_EVIDENCE` is the reason code for a Fail whose recommendation rests on inputs the task did not give (prize cost, hourly revenue, a named employee's shift). An answer earns full credit by saying the evidence is insufficient to identify a person and stating what it would check next.
+`INSUFFICIENT_EVIDENCE` is the reason code for a Fail whose recommendation rests on inputs the task did not give (prize cost, hourly revenue, a named employee's shift). Full credit is the Excellent anchor above: saying the evidence cannot identify a person and naming the procedure's next step from where the evidence stands. Saying only that the evidence is insufficient, without that next step, is Acceptable.
 
 ## Illustrative answer (written to test the rubric; the kind of answer it has to catch)
 
