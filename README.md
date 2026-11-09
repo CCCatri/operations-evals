@@ -10,16 +10,8 @@ Figures are withheld on purpose: the process and the grading are exact; the numb
 
 ## Calibration
 
-**2026-11-09, blind second grader.** An AI model in a fresh session received the task, allowed evidence, reference answer and rubric, plus three answers in shuffled order with no grades: the two graded examples above (both Fail), and the Excellent version the item itself states ("the gap is real; I can't yet say where; tomorrow the count runs hourly by side and the morning count stays routine").
-
-| Answer | Author | Second grader |
-|---|---|---|
-| "I recounted and the gap is real, so I'd replace the closer." | Fail | Fail |
-| The Excellent version above | Excellent | Excellent (borderline with Acceptable; leaned Excellent on the full-credit line) |
-| The closing-shift recommendation | Fail | Fail |
-
-Agreement: 3 of 3 verdicts. Small sample: three answers, one second grader, which is an AI model.
-
-Rubric lines the second grader found ambiguous to apply, open for revision:
+**2026-11-09, first pass: not blind.** An AI model graded three unlabeled answers (the two graded examples above and the Excellent version the item states) after receiving the task, allowed evidence, reference answer and rubric. Its verdicts matched the author's on all three, but earlier in the same session it had read the author's Fail grades on two of them, so only its Excellent match is independent. It flagged two rubric lines as ambiguous to apply:
 1. Whether `INSUFFICIENT_EVIDENCE` covers a single unstated role ("the closer") or only invented figures, shifts and time windows.
 2. How the Excellent anchor's "if the recount resolves the gap, stop" branch applies to an answer that reports the recount already done.
+
+**Fresh run: pending.** A new session with no memory, given only the blind file: the task, allowed evidence, reference answer, rubric and three unlabeled answers.
