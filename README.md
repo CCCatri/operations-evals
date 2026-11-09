@@ -24,5 +24,5 @@ Rubric defect found: the Excellent anchor asks for every result branch to be spe
 
 **2026-11-09, first pass: not blind.** An AI model graded the same three answers, but earlier in its session it had read the author's Fail grades on two of them, so only its Excellent match was independent. It also flagged whether `INSUFFICIENT_EVIDENCE` covers a single unstated role ("the closer"). Superseded by the fresh run.
 
-## Invoice-to-purchase-order reconciliation
-[`invoice-match/`](invoice-match/): a supplier invoice reconciled against a purchase order line by line (short cases, price changes, next truck before credit, freight share by product value). The figures are illustrative; the method is how I checked prize shipments. It includes an answer key, a Checks tab that must read ALL PASS, and an independent checker that must catch two injected faults.
+## Three-way match: purchase order, receiving count, invoice
+[`invoice-match/`](invoice-match/): a supplier invoice matched line by line against my purchase order and my own count of what arrived, with each exception categorized and routed to its owner (price, short, billed for more than received, never ordered, billed twice, freight). The figures are illustrative; the method is how I checked prize shipments. It includes an answer key, a Checks tab that must read ALL PASS, and an independent checker that must catch two injected faults.
