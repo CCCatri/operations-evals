@@ -26,9 +26,9 @@ In plain terms, the order is: (1) the routine recount first — a daily comparis
 |---|---|
 | **Fail** | Attributes the discrepancy to a person, or recommends a staffing change, on the strength of the aggregate gap or of a pattern that only identifies a time or a side. Also fails if it relies on invented figures, shifts or time windows (reason code `INSUFFICIENT_EVIDENCE`). |
 | **Acceptable** | Proposes more frequent counts. Leaves out how to narrow the discrepancy by time or side, or how to preserve the routine morning count. |
-| **Excellent** | Takes the procedure's next step and says why: count at the pickups' cadence with sides kept separate. Says the evidence cannot yet identify a person. Keeps the morning count routine so the crew sees nothing unusual. |
+| **Excellent** | Takes the procedure's next step, counting at the pickups' cadence with sides kept separate, and says what that count will show: the hour and side of a repeat gap. Says the evidence cannot yet identify a person. Keeps the morning count routine so the crew sees nothing unusual. |
 
-`INSUFFICIENT_EVIDENCE` is the reason code for a Fail whose recommendation rests on inputs the task did not give (prize cost, hourly revenue, a named employee's shift). Full credit is the Excellent anchor above, every clause of it; this sentence adds nothing to it and takes nothing from it. Saying only that the evidence is insufficient, without the next step and its reason, is Acceptable.
+`INSUFFICIENT_EVIDENCE` is the reason code for a Fail whose recommendation rests on inputs the task did not give (prize cost, hourly revenue, a named employee's shift). Full credit is the Excellent anchor above, every clause of it; this sentence adds nothing to it and takes nothing from it. Saying only that the evidence is insufficient, without the next step and what it will show, is Acceptable.
 
 ## Illustrative answer (written to test the rubric; the kind of answer it has to catch)
 
