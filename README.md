@@ -28,12 +28,17 @@ Rubric defect found: the Excellent anchor asks for every result branch to be spe
 
 | Sentence | Reading | Found | Status |
 |---|---|---|---|
-| Excellent anchor: "Says the evidence cannot yet identify a person." | Must the answer also say that the narrower count will not name a person? The reference answer's "even a located pattern says where and when, not who" invites it | runs 1 and 5 | open |
+| Excellent anchor: "Says the evidence cannot yet identify a person." | Must the answer also say that the narrower count will not name a person? The reference answer's "even a located pattern says where and when, not who" invites it | runs 1 and 5 | closed by the sixth revision (the reference answer's restatement deleted; raised by none of three graders) |
 | Excellent anchor: "says why" | The reason the step works, or the procedure's own text | runs 1 and 4 | closed by the fifth revision |
 | Excellent anchor's three evidence stages | One ladder every answer must state | runs 2 and 3 | closed by the fourth revision |
 | The task | May an answer state a recount the task does not give? | runs 1 to 3 | closed by the fourth revision |
 
-Small sample: every run so far is three answers and one AI grader; no Acceptable answer has been graded.
+| The text under the table: "Saying only that the evidence is insufficient ... is Acceptable", against the Acceptable anchor's "Proposes more frequent counts" | Two routes to Acceptable, or one | calibration, 3 of 3 graders | open |
+| Excellent anchor: "Says the evidence cannot yet identify a person." | A refusal to name anyone, or a statement about what the evidence can show | calibration, 3 of 3 graders | open |
+| Fail anchor: "relies on invented figures, shifts or time windows" | A proposed count interval as an invented time window | calibration, 3 of 3 graders | open |
+| Acceptable anchor: "Leaves out ... or ..." | Either or both; an answer that leaves out only the no-person clause fits no score | calibration, 2 of 3 graders | open |
+
+**2026-11-10, calibration set (sixth revision kept).** The reference answer keeps only my quoted words; its plain-terms restatement of the bar was deleted, so the anchors are the one definition. Ten answers covering every score (3 Fail, 4 Acceptable, 3 Excellent; three from this item, seven written to test the rubric) were graded blind by three AI models, each in a fresh session with no memory. Result: 30 of 30 grades matched the key (10 of 10 for each grader); Fleiss' kappa 1.00. Files: [`calibration/2026-11-10/`](calibration/2026-11-10/) (the blind file, the key and every grade). Every reading in the ledger was raised by graders whose own scores matched the key. Limits: the graders are AI models, not people, and the test answers are mine.
 
 **2026-11-09, first pass: not blind.** An AI model graded the same three answers, but earlier in its session it had read the author's Fail grades on two of them, so only its Excellent match was independent. It also flagged whether `INSUFFICIENT_EVIDENCE` covers a single unstated role ("the closer"). Superseded by the fresh run.
 

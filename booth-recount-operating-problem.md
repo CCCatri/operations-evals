@@ -18,8 +18,6 @@ The operating procedure below, as written by the person who ran the booth, inclu
 
 > Cash pickups per hour are standard, but stock count per hour isn't. Checking the count more often in the booth to match pickups instead of per day, then narrow it down to whose side of the booth was short, then check them more often.
 
-In plain terms, the order is: (1) the routine recount first — a daily comparison can flag a discrepancy but cannot locate it, and it can be a counting error; (2) if the gap remains, align the stock count with the hourly cash pickups and record each side of the booth separately, which is what lets a confirmed gap narrow to a window and a side; (3) where it recurs, count more often there. Nobody is named and nothing about staffing changes until the count has located the difference, and even a located pattern says where and when, not who or why. The morning count stays routine, because the procedure's first purpose is that no red flag goes up to the crew.
-
 ## Grading anchors (3-point scale)
 
 | Score | Anchor |
