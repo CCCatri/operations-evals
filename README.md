@@ -8,7 +8,7 @@ Evaluation items built from operations I ran (Catri Concessions, 2008–2019). E
 
 Figures are withheld on purpose: the process and the grading are exact; the numbers are not the point.
 
-## Calibration
+## Inter-annotator agreement
 
 **2026-11-09, fresh run (blind).** An AI model in a new session with no memory received only the blind file: the task, allowed evidence, reference answer, rubric and three unlabeled answers (the two graded examples above and the Excellent version the item states), with no grades.
 
