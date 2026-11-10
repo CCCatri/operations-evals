@@ -4,7 +4,7 @@ A work sample in the shape the Business Operations listing describes: an operati
 
 ## The task (what the model is asked)
 
-You run a carnival game booth with a crew of several people on a multi-week stand. Cash is picked up from the booth every hour. Stock (the prizes) is counted once in the morning and once at night. Tonight's stock count, set against the day's gross revenue, does not line up: more prizes are gone than the day's sales account for. Recommend what to do tomorrow.
+You run a carnival game booth with a crew of several people on a multi-week stand. Cash is picked up from the booth every hour. Stock (the prizes) is counted once in the morning and once at night. Tonight's stock count, set against the day's gross revenue, does not line up: more prizes are gone than the day's sales account for. You recounted tonight and the gap is still there. Recommend what to do tomorrow.
 
 ## Allowed evidence
 
@@ -25,8 +25,8 @@ In plain terms, the order is: (1) the routine recount first — a daily comparis
 | Score | Anchor |
 |---|---|
 | **Fail** | Attributes the discrepancy to a person, or recommends a staffing change, on the strength of the aggregate gap or of a pattern that only identifies a time or a side. Also fails if it relies on invented figures, shifts or time windows (reason code `INSUFFICIENT_EVIDENCE`). |
-| **Acceptable** | Recounts first and proposes more frequent counts if the gap remains. Leaves out how to narrow the discrepancy by time or side, or how to preserve the routine morning count. |
-| **Excellent** | Takes the procedure's next step from where the evidence stands, and says why: before a recount, recount first (a gap the recount resolves is documented as a count correction and closed); with the gap confirmed, count at the pickups' cadence with sides kept separate; where one window or side recurs, check more often there before any staffing change. Says the evidence cannot yet identify a person. Keeps the morning count routine so the crew sees nothing unusual. |
+| **Acceptable** | Proposes more frequent counts. Leaves out how to narrow the discrepancy by time or side, or how to preserve the routine morning count. |
+| **Excellent** | Takes the procedure's next step and says why: count at the pickups' cadence with sides kept separate. Says the evidence cannot yet identify a person. Keeps the morning count routine so the crew sees nothing unusual. |
 
 `INSUFFICIENT_EVIDENCE` is the reason code for a Fail whose recommendation rests on inputs the task did not give (prize cost, hourly revenue, a named employee's shift). Full credit is the Excellent anchor above, every clause of it; this sentence adds nothing to it and takes nothing from it. Saying only that the evidence is insufficient, without the next step and its reason, is Acceptable.
 
@@ -36,7 +36,7 @@ In plain terms, the order is: (1) the routine recount first — a daily comparis
 
 ## The grade: Fail
 
-The recommendation would be approved on a slide. It fails on the operating constraint. It supplies no calculation and no figures, yet it invents an evening concentration from a day-level total and assigns it to the closer; it skips the recount, so it cannot tell a counting error from a shortfall, and it never creates a count that could locate one. It changes staffing and the closing routine, which is the red flag the morning count exists to avoid. And it uses figures the task did not give. The reference answer does the opposite in every step: recount first, then count at the pickups' cadence with sides kept separate, let the count locate the difference, then increase checks where it points. That is the difference between a recommendation that survives contact with the people who run the booth and one that costs you the crew you built it to keep.
+The recommendation would be approved on a slide. It fails on the operating constraint. It supplies no calculation and no figures, yet it invents an evening concentration from a day-level total and assigns it to the closer; it never creates a count that could locate the gap. It changes staffing and the closing routine, which is the red flag the morning count exists to avoid. And it uses figures the task did not give. The reference answer does the opposite in every step: recount first, then count at the pickups' cadence with sides kept separate, let the count locate the difference, then increase checks where it points. That is the difference between a recommendation that survives contact with the people who run the booth and one that costs you the crew you built it to keep.
 
 ## A second illustrative answer (one check passed; the conclusion still unsupported)
 
