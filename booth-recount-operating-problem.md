@@ -1,6 +1,6 @@
 # Operating problem: the night count doesn't match the day's revenue
 
-A work sample in the shape the Business Operations listing describes: an operating problem from work I have run, with the process and the constraint; the reference answer a model's attempt is graded against; a model's attempt; the grade. Figures are withheld on purpose — the process and the grading are exact, the numbers are not the point. Text in quotation blocks is mine as typed, spelling corrected; the headings and the grading scaffold are structure.
+A work sample: an operating problem from work I have run, with the process and the constraint; the reference answer a model's attempt is graded against; a model's attempt; the grade. Figures are withheld on purpose — the process and the grading are exact, the numbers are not the point. Text in quotation blocks is mine as typed, spelling corrected; the headings and the grading scaffold are structure.
 
 ## The task (what the model is asked)
 
